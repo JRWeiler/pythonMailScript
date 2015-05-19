@@ -22,6 +22,7 @@ def login(server, username, password):
     server.login(username,password)
 
 #Function to send email. Gather a from address, to address, subject, and mail body
+#Could be changed to accept arguments instead
 def sendMail():
     while True:
         fromaddr = raw_input("From address: ")
